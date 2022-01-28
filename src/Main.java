@@ -1,9 +1,9 @@
 class Main {
     public static void main(String[] args) {
-        boolean isGreenLight = false;
+        boolean isGreenLight = true;
 
-        int speedOfPlayer1 = 1;
-        int speedOfPlayer2 = 0;
+        int speedOfPlayer1 = 0;
+        int speedOfPlayer2 = 1;
         int speedOfPlayer3 = 0;
 
         // Допишите здесь логику так, что будет подсчитано и выведено
@@ -12,7 +12,7 @@ class Main {
         // Если свет красный, то выбывает каждый, чья скорость не 0.
 
         int countOfPlayers = 0;
-        if (isGreenLight == false) {
+        if (isGreenLight == true) {
 
             if (speedOfPlayer1 != 0) {
                 countOfPlayers = countOfPlayers + 1;
